@@ -18,3 +18,13 @@
   left: 1px;
   transition: all 0.3s;
 }
+.checkbox:checked + .switch::after {
+  left : 20px; 
+}
+.checkbox:checked + .switch {
+  background-color: #7983ff;
+}
+
+.checkbox{
+  display: none;
+}

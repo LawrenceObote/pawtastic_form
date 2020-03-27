@@ -29,10 +29,16 @@ export default class App extends Component{
             </div>
             <div>
               <h3>Gender</h3>
-              <input type="radio" id="male" name="gender" value="male" className="radio"></input>
+              <input type="checkbox" id="male" name="gender" value="male" className="checkbox"></input>
               <label for="toggle" class="switch" className="switch"></label>
               
-              <input type="radio" id="female" name="gender" value="female" className="radio"></input>
+              <input type="checkbox" id="female" name="gender" value="female" className="checkbox"></input>
+              <label for="toggle" class="switch" className="switch"></label>
+
+              <input type="radio" id="yes" name="spayedOrNeutered" value="yes" className="radio"></input>
+              <label for="toggle" class="switch" className="switch"></label>
+              
+              <input type="radio" id="no" name="spayedOrNeutered" value="no" className="radio"></input>
               <label for="toggle" class="switch" className="switch"></label>
             </div>
           </form>
