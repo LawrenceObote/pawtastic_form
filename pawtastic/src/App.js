@@ -11,7 +11,7 @@ export default class App extends Component{
   render(){
     return(
       <div className="container">
-        <div className="left"></div>
+        <div className="left">Pawtastic</div>
         <div className="right">
           <h1>Yay, we love dogs! Give us the basics about your pup.</h1>
           <form>
