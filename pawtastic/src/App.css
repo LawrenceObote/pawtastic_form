@@ -138,6 +138,7 @@ form{
   width: 80px;
   border-radius: 25px;
   right: 30%;
+  color: #a4a6b3;
 }
 #rightButton{
   position: relative;
@@ -145,4 +146,6 @@ form{
   width: 80px;
   border-radius: 25px;
   left: -10%;
+  background-color: #545871;
+  color: white;
 }
