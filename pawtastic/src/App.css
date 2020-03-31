@@ -1,7 +1,8 @@
 body{
   background-color: #808498;
-}.container{
-  width: 60%;
+}
+.container{
+  width: 70%;
   height: 60vh;
   display: flex;
   flex-direction: row;
@@ -72,6 +73,8 @@ border-bottom-right-radius: 10px;
   width: 100%;
   margin: 10px 0px;
   display: inline-block;
+  padding-left: 10%;
+  padding-right: 10%;
   
 
 }
