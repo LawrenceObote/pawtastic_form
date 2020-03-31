@@ -65,6 +65,8 @@ align-content: space-between;
 text-align: left;
 border-top-right-radius: 10px;
 border-bottom-right-radius: 10px;
+padding-right: 10%;
+padding-left: 10%;
 }
 .textBars{
   display: flex;
@@ -73,8 +75,6 @@ border-bottom-right-radius: 10px;
   width: 100%;
   margin: 10px 0px;
   display: inline-block;
-  padding-left: 10%;
-  padding-right: 10%;
   
 
 }
