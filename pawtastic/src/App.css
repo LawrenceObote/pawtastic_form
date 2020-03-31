@@ -104,12 +104,11 @@ p{
 }
 .col-25{
   text-align: left;
-  display: inline-block;
-  
+  display: block;
 }
 .col-75{
   text-align: right;
-  display: inline-block;
+  display: block;
   padding-right: 20px;
 }
 input{
@@ -155,3 +154,4 @@ form{
   position: relative;
   top: 280px;
 }
+

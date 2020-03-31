@@ -25,7 +25,7 @@ export default class App extends Component{
               <div className="col-75">
               <input type="text" placeholder="Dog's name" id="name" value={this.state.value}></input>
               </div>
-              
+            
               <div className="col-25" id="photo">
               <button type="upload" placeholder="upload a photo"></button>
               </div>
@@ -34,6 +34,7 @@ export default class App extends Component{
               </div>
             </div>
             <div className="textBars">
+
               <div class="col-25">
               <label for="breed">Breed</label>
               </div>
@@ -63,12 +64,12 @@ export default class App extends Component{
               </div>
               <label for="spayedOrNeutered">Spayed or Neutered</label>
               <div className="input">
-              <input type="radio" id="yes" name="spayedOrNeutered" value="yes" className="radio"></input>
+              <input type="checkbox" id="yes" name="spayedOrNeutered" value="yes" className="radio"></input>
               <label for="toggle" class="switch" className="switch"></label>
               </div>
 
               <div className="input">
-              <input type="radio" id="no" name="spayedOrNeutered" value="no" className="radio"></input>
+              <input type="checkbox" id="no" name="spayedOrNeutered" value="no" className="radio"></input>
               <label for="toggle" class="switch" className="switch"></label>
               </div>
             </div>
