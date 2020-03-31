@@ -38,7 +38,7 @@ export default class App extends Component{
               <label for="breed">Breed</label>
               </div>
               <div class="col-75">
-              <input type="text" placeholder="" id="breed"></input>
+              <input type="text" placeholder="Dog's breed" id="breed"></input>
               </div>
               
               <div class="col-25">
