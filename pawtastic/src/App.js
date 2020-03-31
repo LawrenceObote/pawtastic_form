@@ -55,12 +55,12 @@ export default class App extends Component{
               <label for="gender" id="gender">Gender</label>
               <div className="input">
               <input type="checkbox" id="male" name="gender" value="male" className="checkbox"></input>
-              <label for="toggle" class="switch" className="switch"></label>
+              <label for="toggle" className="switch">Feale</label>
               </div>
 
               <div className="input">
               <input type="checkbox" id="female" name="gender" value="female" className="checkbox"></input>
-              <label for="toggle" class="switch" className="switch"></label>
+              <label for="toggle" className="switch">Male</label>
               </div>
               <label for="spayedOrNeutered">Spayed or Neutered</label>
               <div className="input">
