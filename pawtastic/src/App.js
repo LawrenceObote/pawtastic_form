@@ -64,12 +64,12 @@ export default class App extends Component{
               </div>
               <label for="spayedOrNeutered">Spayed or Neutered</label>
               <div className="input">
-              <input type="checkbox" id="yes" name="spayedOrNeutered" value="yes" className="radio"></input>
+              <input type="checkbox" id="yes" name="spayedOrNeutered" value="yes" className="checkbox"></input>
               <label for="toggle" class="switch" className="switch"></label>
               </div>
 
               <div className="input">
-              <input type="checkbox" id="no" name="spayedOrNeutered" value="no" className="radio"></input>
+              <input type="checkbox" id="no" name="spayedOrNeutered" value="no" className="checkbox"></input>
               <label for="toggle" class="switch" className="switch"></label>
               </div>
             </div>
