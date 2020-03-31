@@ -39,7 +39,7 @@ body{
   left : 20px;
 }
 .checkbox:checked + .switch {
-  background-color: #7983ff;
+  background-color: #ebd0ce
 }
 
 .left {
