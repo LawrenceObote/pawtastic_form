@@ -132,9 +132,10 @@ form{
   padding-bottom: 10%;
   padding-top: 5%;
 }
-.right2button{
+#leftButton{
   position: relative;
   height: 40px;
-  width: 30px;
+  width: 80px;
+  border-radius: 25px;
   right: 30%;
 }
