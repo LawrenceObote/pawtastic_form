@@ -70,6 +70,9 @@ export default class App extends Component{
               </div>
             </div>
           </form>
+          <div className="right2">
+
+          </div>
         </div>
       </div>
     )

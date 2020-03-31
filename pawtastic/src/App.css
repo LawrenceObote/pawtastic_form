@@ -55,10 +55,11 @@ body{
 }
 
 .right {
+  position: relative;
+  top: 0px;
   height: 100%;
   width: 69%;
   background-color: #f7eceb;
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-content: space-between;
@@ -67,6 +68,13 @@ body{
   border-bottom-right-radius: 10px;
   padding-right: 10%;
   padding-left: 10%;
+
+}
+.right2{
+  height: 20%;
+  width:100%;
+  display: inline-block;
+  background-color: #ffffff;
 }
 .textBars{
   display: flex;
