@@ -55,18 +55,18 @@ body{
 }
 
 .right {
-height: 100%;
-width: 69%;
-background-color: #f7eceb;
-text-align: center;
-display: flex;
-flex-direction: column;
-align-content: space-between;
-text-align: left;
-border-top-right-radius: 10px;
-border-bottom-right-radius: 10px;
-padding-right: 10%;
-padding-left: 10%;
+  height: 100%;
+  width: 69%;
+  background-color: #f7eceb;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  text-align: left;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 .textBars{
   display: flex;
@@ -74,7 +74,6 @@ padding-left: 10%;
   height: 20px;
   width: 100%;
   margin: 10px 0px;
-  display: inline-block;
   
 
 }
@@ -97,9 +96,12 @@ p{
 .col-75{
   text-align: right;
   display: inline-block;
+  padding-right: 20px;
 }
 input{
   display: inline-block;
+  height: 25px;
+  
 }
 .buttons{
   display: flex;
