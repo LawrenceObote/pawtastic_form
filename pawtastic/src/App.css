@@ -139,3 +139,10 @@ form{
   border-radius: 25px;
   right: 30%;
 }
+#rightButton{
+  position: relative;
+  height: 40px;
+  width: 80px;
+  border-radius: 25px;
+  left: -10%;
+}
