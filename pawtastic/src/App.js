@@ -71,7 +71,7 @@ export default class App extends Component{
             </div>
           </form>
           <div className="right2">
-
+              <button>Back</button>
           </div>
         </div>
       </div>
