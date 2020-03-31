@@ -11,7 +11,10 @@ export default class App extends Component{
   render(){
     return(
       <div className="container">
-        <div className="left">Pawtastic</div>
+        <div className="left">
+          <h4>Pawtastic</h4>
+          <h6 id="bottomText">Save and Exit</h6>
+        </div>
         <div className="right">
           <h1>Yay, we love dogs! Give us the basics about your pup.</h1>
           <form>
@@ -44,7 +47,7 @@ export default class App extends Component{
               <div class="col-75">
               <input type="text" placeholder="MM/DD/YYYY"></input>
               </div>
-              </div>
+            </div>
             
             
             <div className="buttons">

@@ -150,3 +150,7 @@ form{
   background-color: #545871;
   color: white;
 }
+#bottomText{
+  position: relative;
+  top: 280px;
+}
