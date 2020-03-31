@@ -140,6 +140,7 @@ form{
   border-radius: 25px;
   right: 30%;
   color: #a4a6b3;
+  border: 1px solid #a4a6b3;
 }
 #rightButton{
   position: relative;
